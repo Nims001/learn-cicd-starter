@@ -6,7 +6,7 @@ import (
 )
 
 func TestGetApiKey(t *testing.T) {
-	Apikey := "AppKey crazyapi6969" // Set the API key for testing
+	Apikey := "ApiKey crazyapi6969" // Set the API key for testing
 
 	// 1. Create a new HTTP request
 	req, err := http.NewRequest("GET", "https://api.example.com/data", nil)
